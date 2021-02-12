@@ -1,0 +1,25 @@
+.channelRow{
+    display: flex;
+    align-items: center;
+    font-size: small !important;
+    width: 100%;
+}
+.channelRow__logo{
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px;
+}
+.channelRow__text{
+    padding-right: 40px;
+}
+
+.channelRow__text > h4{
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width: 941px){
+    .subscribe{
+        visibility: hidden;
+    }
+}

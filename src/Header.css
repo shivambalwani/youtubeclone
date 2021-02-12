@@ -1,0 +1,93 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.header__logo{
+    height: 90px;
+    object-fit: contain;
+    margin-left: 25px;
+}
+
+.header__input{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+  
+}
+.icon__mic{
+    margin-left: 15px;
+    margin-right: 10px;
+    color: gray;
+}
+.input__area{
+    outline: none !important;
+}
+.header__input > input {
+    flex: 1;
+    border: 0px;
+}
+.header__middle{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.header__inputbutton{
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+
+
+}
+.header__icons{
+    display:flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.head__icons{
+    margin-right: 20px;
+    color: gray;
+
+}
+.header__left{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+@media(max-width: 630px){
+    
+.header__icons{
+    display: none;
+}
+.header__middle{
+    padding-right: 20%;
+}
+.header__input{
+    width: 120%;
+}
+
+
+}
+@media(max-width: 500px){
+    
+    .header__middle{
+        width: 60%;
+    }
+    .header__input{
+        width: 140%;
+    }
+    
+    
+}
